@@ -7,6 +7,9 @@ package Семинары.Seminar6.HomeworkSolid.Model;
 //### Принцип подстановки Лисков
 //класс PrintedBook всего лишь расширяет функционал PrintedProduct, а не меняет его. 
 
+//### Принцип единственной ответственности 
+// класс только заводит экземпляр, больше никаких операций с ними не делает.
+
 public class PrintedBook<T> extends OfficialPrintedProduct<T> {
     protected T isbn;
     protected String authors;
