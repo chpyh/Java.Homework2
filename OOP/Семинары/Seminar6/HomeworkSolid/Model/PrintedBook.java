@@ -18,7 +18,7 @@ public class PrintedBook<T> extends OfficialPrintedProduct<T> {
         super(vendorCode, title, type, id, year);
         this.authors = authors;
         this.isbn = isbn;
-        this.year = year;
+    
     }
 
     public PrintedBook() {
