@@ -19,7 +19,7 @@ public class CalculateComplexNum {
     Numbers result;
     char op;
 
-    public void calculate() throws ArithmeticException {
+    public void calculate(){
         try {
             FileHandler fileHandler = new FileHandler("log.txt", true);
             logger.addHandler(fileHandler);
